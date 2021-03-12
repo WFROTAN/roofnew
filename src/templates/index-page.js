@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import "./sass/index-page.scss"
 
 // images
-import Roof from '../img/roof1.webp'
 import Image1 from '../img/image1.webp'
 import Image2 from '../img/image2.webp'
 import Image3 from '../img/image3.webp'
@@ -140,7 +139,7 @@ export const IndexPageTemplate = ({
                 Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco. Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.
               </div>
               <Link className="slide-btn" to="/blog">
-                Learn More
+                Our Professionals
               </Link>
             </div>
           </div>
@@ -156,7 +155,7 @@ export const IndexPageTemplate = ({
                 Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.
               </div>
               <Link className="slide-btn" to="/blog">
-                Learn More
+                Our Quality
               </Link>
             </div>
             <div className="add-row__image bottom-image">
