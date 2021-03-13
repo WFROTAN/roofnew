@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
         >
           {title}
         </h1>
-        <h3
+        <h1
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen slider-subheading"
           style={{
             textAlign: 'center',
@@ -64,7 +64,7 @@ export const IndexPageTemplate = ({
           }}
         >
           {subheading}
-        </h3>
+        </h1>
         <Link className="slide-btn" to="/contact">
           Contact Us
         </Link>
