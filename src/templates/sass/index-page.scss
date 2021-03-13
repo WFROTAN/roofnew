@@ -283,6 +283,11 @@
         }
 
         .userText {
+
+            .label-usertext {
+                font-size: 1em;
+            }
+
             textarea {
                 width: 100%;
                 border: 1px solid #222;

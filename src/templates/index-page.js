@@ -190,7 +190,7 @@ export const IndexPageTemplate = ({
               </label>
             </div>
             <div className="userText">
-              <h4>Case details:</h4>
+              <div className="label-usertext">Case details:</div>
               <textarea rows="10"></textarea>
             </div>
             <input type="submit" value="Send Request" />
