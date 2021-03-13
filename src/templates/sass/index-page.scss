@@ -24,7 +24,7 @@
 
 .services {
 
-    h3 {
+    h1 {
         text-align: center;
     }
 
@@ -62,7 +62,7 @@
                 border-radius: 4px;
 
                 .card-content {
-                    h3 {
+                    h1 {
                         font-size: 25px;
                     }
                 }
@@ -84,7 +84,7 @@
 
     @media only screen and (max-width: 1129px) {
         .card-content {
-            h3 {
+            h1 {
                 font-size: 21px;
             }
         }
@@ -182,7 +182,7 @@
             &__text {
                 flex: 1;
 
-                h3 {
+                h1 {
                     font-size: 30px;
                     font-weight: bold;
                     margin-bottom: 30px;
@@ -204,7 +204,7 @@
             @media only screen and (max-width: 1052px) {
                 .add-row {
                     &__text {
-                        h3 {
+                        h1 {
                             font-size: 25px;
                             margin-bottom: 5px;
                         }
@@ -254,7 +254,7 @@
     .form-content {
         width: 50%;
 
-        h3 {
+        h1 {
             text-align: center;
             font-size: 2.5rem !important;
             font-weight: 600 !important;

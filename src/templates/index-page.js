@@ -77,12 +77,12 @@ export const IndexPageTemplate = ({
             <div className="column is-20 is-offset-1 service-column">
               <div className="content">
                 <div className="services">
-                  <h3 className="has-text-weight-semibold is-size-2">Our Services</h3>
+                  <h1 className="has-text-weight-semibold is-size-2">Our Services</h1>
                   <div className="services-content">
                     <div className="services-content__card">
                       <div className="card-image"><img src={Image1} width="100%" height="100%"  alt="Roof maintenance"/></div>
                       <div className="card-content">
-                        <h3>Roof Maintenance</h3>
+                        <h1>Roof Maintenance</h1>
                         <div className="card-description">
                           Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor.
                         </div>
@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
                     <div className="services-content__card">
                       <div className="card-image"><img src={Image2} width="100%" height="100%"  alt="Roof Inspection"/></div>
                       <div className="card-content">
-                        <h3>Roof Inspection</h3>
+                        <h1>Roof Inspection</h1>
                         <div className="card-description">
                           Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor.
                         </div>
@@ -100,7 +100,7 @@ export const IndexPageTemplate = ({
                     <div className="services-content__card">
                       <div className="card-image"><img src={Image3} width="100%" height="100%"  alt="Insulation and Reparis"/></div>
                       <div className="card-content">
-                        <h3>Insulation & Repairs</h3>
+                        <h1>Insulation & Repairs</h1>
                         <div className="card-description">
                           Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor.
                         </div>
@@ -132,9 +132,9 @@ export const IndexPageTemplate = ({
               <img src={Add1} width="100%" height="100%" alt="Professional"/>
             </div>
             <div className="add-row__text">
-              <h3>
+              <h1>
                 Built by Professionals
-              </h3>
+              </h1>
               <div className="text-description">
                 Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco. Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.
               </div>
@@ -148,9 +148,9 @@ export const IndexPageTemplate = ({
               <img src={Add2} width="100%" height="100%"  alt="Service"/>
             </div>
             <div className="add-row__text add-space-between">
-              <h3>
+              <h1>
                 Quality Service
-              </h3>
+              </h1>
               <div className="text-description">
                 Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.
               </div>
@@ -167,7 +167,7 @@ export const IndexPageTemplate = ({
     </section>
     <section className="form">
         <div className="form-content">
-          <h3>Request Consultation</h3>
+          <h1>Request Consultation</h1>
           <form>
             <div className="form-row">
               <label>
