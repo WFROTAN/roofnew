@@ -1,5 +1,10 @@
 // Config vars
 // Kaldi logo brand color: #FD461E
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+* {
+font-family: 'Montserrat', sans-serif;
+}
+
 $kaldi-red: #d64000;
 $kaldi-red-invert: #fff;
 
@@ -8,10 +13,19 @@ $primary-invert: $kaldi-red-invert;
 $body-color: #333;
 $black: #2b2523;
 
-.navbar-item img {
-  max-height: 4rem !important;
-  margin-right: 30px;
+.navbar-brand {
+  height: 40px;
 }
+
+.navbar-item {
+  margin-right: 20px;
+  height: 100%;
+
+  img {
+    max-height: 6rem !important;
+    margin-right: 40px;
+  }
+} 
 
 .navbar {
   .nav-phone {

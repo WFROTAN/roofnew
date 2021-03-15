@@ -30,7 +30,7 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
-        height: '80vh',
+        height: '75vh',
       }}
     >
       <div
@@ -75,7 +75,7 @@ export const IndexPageTemplate = ({
         <div className="section section1">
           <div className="columns">
             <div className="column is-20 is-offset-1 service-column">
-              <div className="content">
+              <div className="content content1">
                 <div className="services">
                   <h1 className="has-text-weight-semibold is-size-2">Our Services</h1>
                   <div className="services-content">
@@ -171,29 +171,29 @@ export const IndexPageTemplate = ({
           <form>
             <div className="form-row">
               <label>
-                First Name:
+                First Name
                 <input type="text" name="name" />
               </label>
               <label>
-                Last Name:
+                Last Name
                 <input type="text" name="name" />
               </label>
             </div>
             <div className="form-row">
               <label>
-                Email:
+                Email
                 <input type="text" name="name" />
               </label>
               <label>
-                Phone Number:
+                Phone Number
                 <input type="text" name="name" />
               </label>
             </div>
             <div className="userText">
-              <div className="label-usertext">Case details:</div>
+              <div className="label-usertext">How can we help you with your roof?</div>
               <textarea rows="10"></textarea>
             </div>
-            <input type="submit" value="Send Request" />
+            <input id="form-submit" type="submit" value="Send Request" />
           </form>
         </div>
     </section>
